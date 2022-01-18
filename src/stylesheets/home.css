@@ -6,24 +6,45 @@
 }
 
 .pic {
-  width: 35%;
-  height: 63%;
-
-  padding: 30px;
-  border-radius: 50%;
+  width: 37%;
+    /* padding: 30px; */
+    border-radius: 50%;
+    height: 285px;
 }
 .introductionnn {
   width: 100%;
   height: 50%;
 }
+
+.fullstack {
+  font-size: 22px;
+  font-weight: 500;
+}
 .nam {
   font-size: large;
 }
-
-
 @media (max-width: 750px) {
   nam {
     font-size: 12px;;
+  }
+}
+
+
+div.font-bold {
+  margin-left: 18px;
+}
+
+div.font-bold.text-end {
+  margin-right: 18px;
+}
+@media (max-width: 750px) {
+  .pic {
+    width: 200px;
+    height: 200px;
+  left: 50%;
+top:8%;
+   position: absolute;
+    border-radius: 100px;
   }
 }
 .introductionn {
@@ -87,9 +108,17 @@
   transition: all 0.5s;
   overflow: none !important;
 }
+.bo {
+  width: 100%;
+  height: 100%;
+}
 
-
-
+@media (max-width: 750px) {
+  .bo {
+    width: 20%;
+    height: 20%;
+  }
+}
 @media (max-width: 750px) {
   .who-is-aishwarya {
     background-size: 40% 40%;

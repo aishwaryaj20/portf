@@ -12,16 +12,19 @@ function Home() {
         className="introduction flex-with-center"
         style={{ backgroundImage: `url('./introbg.svg.svg')` }}
       >
-        <div> <img className="pic" alt="" data-aos="fade-right" src="./p1p1.jpg"></img>
-          <h1 className="nam" data-aos="fade-up">AISHWARYA</h1>
+        <div> <img className="pic" alt="" data-aos="fade-right" src="./p1p1.jpg"></img> 
+        
+        
+        <h1 className="nam" data-aos="fade-up">AISHWARYA</h1>
 
           <div className="intro-content d-flex justify-content-between">
             <p>
               <h3 className="mern">MERN FULL STACK DEVELOPER</h3>
             
               <span className="spaan">Passionate about developing Excellent problem solving skills and
-              ability to perform well in a team.Effective Communicator and a learning enthusiast with a proactive attitude.
+              ability to perform well in a team with a proactive attitude.
               </span>  </p>
+              <br/>
             <button className="primary-button font-bold">
               <a href="#courosel">Get Started</a>
             </button>
@@ -30,7 +33,7 @@ function Home() {
         <br />
        
       </div>
-
+     
       <Courosel />
 
       <div>
@@ -47,7 +50,7 @@ function Home() {
         <div className="row justify-content-start">
           <div className="col-md-4">
             <div className="n-box2 p-5 font-bold" data-aos="fade-right">
-              <h1>Full Stack Web Developer</h1>
+              <h1 className="fullstack">Full-Stack Web Developer</h1>
               <br />
               <p>
                 Result-driven full-stack web developer developing user-friendly
