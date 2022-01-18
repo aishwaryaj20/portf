@@ -13,15 +13,15 @@ function Home() {
         style={{ backgroundImage: `url('./introbg.svg.svg')` }}
       >
         <div> <img className="pic" alt="" data-aos="fade-right" src="./p1p1.jpg"></img>
-          <h1 data-aos="fade-up">AISHWARYA</h1>
+          <h1 className="nam" data-aos="fade-up">AISHWARYA</h1>
 
           <div className="intro-content d-flex justify-content-between">
             <p>
-              <h3>MERN FULL STACK DEVELOPER</h3>
+              <h3 className="mern">MERN FULL STACK DEVELOPER</h3>
             
-              Passionate about developing Excellent problem solving skills and
+              <span className="spaan">Passionate about developing Excellent problem solving skills and
               ability to perform well in a team.Effective Communicator and a learning enthusiast with a proactive attitude.
-            </p>
+              </span>  </p>
             <button className="primary-button font-bold">
               <a href="#courosel">Get Started</a>
             </button>

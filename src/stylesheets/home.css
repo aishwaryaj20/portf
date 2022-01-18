@@ -16,7 +16,16 @@
   width: 100%;
   height: 50%;
 }
+.nam {
+  font-size: large;
+}
 
+
+@media (max-width: 750px) {
+  nam {
+    font-size: 12px;;
+  }
+}
 .introductionn {
   height: 100vh;
   width: 100%;
@@ -35,6 +44,17 @@
   cursor: default;
   text-shadow: 0px 0px 10px #fff;
 }
+
+@media (max-width: 750px) {
+  .primary-button {
+    background-color: white;
+    height: 15px;
+    border-radius: 15px;
+    border: none;
+    width: 15%;
+  }
+}
+
 .primary-button {
   background-color: white;
   height: 45px;
@@ -67,6 +87,18 @@
   transition: all 0.5s;
   overflow: none !important;
 }
+
+
+
+@media (max-width: 750px) {
+  .who-is-aishwarya {
+    background-size: 40% 40%;
+    height: 85vh;
+    color: white;
+    transition: all 0.5s;
+    overflow: none !important;
+  }
+}
 /* .who-is-aishwarya:hover{
    transform: scale(1.05);
    overflow: none !important;
@@ -80,9 +112,16 @@ pre {
   .introduction div h1 {
     font-weight: bold;
     color: rgba(255, 255, 255, 0.466);
-    font-size: 75px;
+    font-size: 40px;
+   
   }
 
+  @media (max-width: 750px) {
+    .pic {
+     width: 50px;
+    }
+  }
+  
   .primary-button {
     background-color: white;
     height: 45px;
@@ -102,4 +141,26 @@ pre {
     font-size: 14px;
     font-family: "Montserrat", sans-serif !important;
   }
+}
+
+.mern {
+  font-size: large;
+}
+
+@media (max-width: 750px) {
+  .mern {
+    font-size: 12px;; 
+  }
+  
+}
+
+.spaan {
+  font-size: medium;
+}
+
+@media (max-width: 750px) {
+  .spaan {
+    font-size: 12px;;
+  }
+  
 }
