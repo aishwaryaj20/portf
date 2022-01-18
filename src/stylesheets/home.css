@@ -116,11 +116,7 @@ pre {
    
   }
 
-  @media (max-width: 750px) {
-    .pic {
-     width: 50px;
-    }
-  }
+
   
   .primary-button {
     background-color: white;
